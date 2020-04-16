@@ -29,3 +29,6 @@ double calcFunc(double a, double b, char op) {
 
 	return result;
 }
+void cls() {
+	system("cls");
+}

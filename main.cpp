@@ -14,24 +14,26 @@ int main() {
 
 	std::cin >> choice;
 
-	system("cls");
+	cls();
 
-	/*if (choice != '+' | '-' | '/' | '*' | '^')
-		std::cout << "Invalid Operator" << std::endl;*/
+	if (choice != '+' | '-' | '/' | '*' | '%' | '^')
+		std::cout << "Invalid Operator" << std::endl;
+		system("PAUSE");
+		return 0;
 
 	std::cout << "Number 1: ";
 	std::cin >> p1;
 
-	system("cls");
+	cls();
 	
 	std::cout << "Number 2: ";
 	std::cin >> p2;
 
-	system("cls");
+	cls();
 
 	std::cout << "Result: " << calcFunc(p1, p2, choice) << std::endl;
 
-	system("PAUSE");
+	cls();
 
 	return 0;
 }
