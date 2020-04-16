@@ -1,1 +1,4 @@
-C:/Users/Sam/source/repos/Calculator/functions.h
+#include <iostream>
+
+double calcFunc(double a, double b, char op);
+void cls();
