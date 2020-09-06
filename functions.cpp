@@ -1,6 +1,8 @@
 #include <iostream>
 #include <math.h>
 
+#include "functions.h"
+
 // main func
 double calcFunc(double a, double b, char op) {
 	double result = 0;
